@@ -1,5 +1,7 @@
 # 桌面待办卡片
 
+> 状态：已发布（2026-10-22）｜GitHub: [kreiitor/desktop-todo-card](https://github.com/kreiitor/desktop-todo-card)
+
 一个常驻 Windows 桌面的轻量待办小卡片。没有标题栏和任务栏按钮，默认贴在桌面层级；点右上角添加，点左侧圆圈完成，支持截止时间和周期任务。
 
 - 单文件 C# WinForms，使用 Windows 自带的 .NET Framework 4.x 编译和运行，不需要 Electron 或 Python 运行时。
@@ -43,6 +45,18 @@
 - **透明度**：托盘菜单 →「透明度」，可选 80/88/94/98/100%。
 - **开机启动**：托盘菜单 →「开机自动启动」。
 - **提醒**：截止前 10 分钟弹一次托盘气泡；超过 12 小时的旧任务不会补弹。
+
+## 目录
+
+| 路径 | 内容 |
+| --- | --- |
+| `TodoWidget.cs` | 主程序源码 |
+| `TodoWidget.exe` | 编译产物，直接运行 |
+| `build.bat` | 用系统自带 .NET Framework 编译 |
+| `app.manifest` | DPI 感知清单 |
+| `tray.ico` | 程序/托盘图标 |
+| `todo.example.json` | 数据格式示例 |
+| `LICENSE` / `NOTICE.md` | MIT 许可证与上游说明 |
 
 ## 数据格式
 
