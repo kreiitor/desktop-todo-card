@@ -1,0 +1,13 @@
+# 本地任务数据与配置，不入库
+todo.json
+widget_conf.json
+error.log
+
+# 构建/打包产物
+_dist/
+bin/
+obj/
+widget-preview.png
+
+# 本地留档，不入库
+UPSTREAM-README.md

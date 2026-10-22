@@ -1,0 +1,9 @@
+{
+  "updated": "2026-10-22T18:00:00",
+  "items": [
+    { "id": "t1", "text": "每周例会", "detail": "线上", "done": false, "due": "2026-10-25 18:00", "repeat": "weekly" },
+    { "id": "t2", "text": "完成本周报告", "detail": "周五前提交", "done": false, "due": "2026-10-30 23:59", "repeat": "" },
+    { "id": "t3", "text": "买牛奶", "detail": "", "done": false, "due": "", "repeat": "" },
+    { "id": "t4", "text": "倒垃圾", "detail": "", "done": true, "due": "", "repeat": "" }
+  ]
+}
